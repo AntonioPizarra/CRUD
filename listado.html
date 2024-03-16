@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/listado.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listado de Registros</title>
+</head>
+<body>
+    <div id="container">
+        <table>
+            <caption>Listado de Registros</caption>
+            <tr class="texto">
+                <th>Núm</th>
+                <th>Nombre</th>
+                <th>Usuario</th>
+                <th>Email</th>
+                <th>Teléfono</th>
+                <th>Género</th>
+                <th>Residencia</th>
+                <th></th>
+            </tr>
+            <tr >
+                <td>1</td>
+                <td>Marta</td>
+                <td>MartaSG01</td>
+                <td>marta.sg10@gmail.com</td>
+                <td>+34 612 34 56 78</td>
+                <td>América</td>
+                <td>
+                    <button class="btn warning">Editar</button>
+                    <button class="btn danger" onclick="confirmDelete()">Borrar</button>
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Juan</td>
+                <td>jlopezp25</td>
+                <td>juanlopez.p@gmail.com</td>
+                <td>+34 667 89 01 23</td>
+                <td>América</td>
+                <td>
+                    <button class="btn warning">Editar</button>
+                    <button class="btn danger" onclick="confirmDelete()">Borrar</button>
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Elena</td>
+                <td>Elena_rm03</td>
+                <td>elena.rmartinez@gmail.com</td>
+                <td>+34 655 43 21 09</td>
+                <td>Europa</td>
+                <td>
+                    <button class="btn warning">Editar</button>
+                    <button class="btn danger" onclick="confirmDelete()">Borrar</button>
+                </td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Andres</td>
+                <td>afr1995</td>
+                <td>andres.f.ruiz@gmail.com</td>
+                <td>+34 699 87 65 43</td>
+                <td>Asia</td>
+                <td>
+                    <button class="btn warning">Editar</button>
+                    <button class="btn danger" onclick="confirmDelete()">Borrar</button>
+                </td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Paula</td>
+                <td>PaulaGG95</td>
+                <td>paula.g.garcia@mail.com</td>
+                <td>+34 688 21 09 87</td>
+                <td>Oceanía</td>
+                <td>
+                    <button class="btn warning">Editar</button>
+                    <button class="btn danger" onclick="confirmDelete()">Borrar</button>
+                </td>
+            </tr>
+        </table>
+        <form>
+            <button class="btn agregar" formaction="login_insercion.html">Agregar</button>
+        </form>
+        
+
+    </div>
+<br><br>
+    <div id="container2">
+        <table>
+            <caption>Listado de Registros</caption>
+            <tr class="texto">
+                <th>Código</th>
+                <th>Usuario</th>
+                <th>Residencia</th>
+                <th></th>
+            </tr>
+            <tr >
+                <td>1</td>
+                <td>Marta</td>
+                <td>América</td> 
+                <td>
+                    <button class="btn warning">Editar</button>
+                    <button class="btn danger" onclick="confirmDelete()">Borrar</button>
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Juan</td>
+                <td>América</td>
+                <td>
+                    <button class="btn warning">Editar</button>
+                    <button class="btn danger" onclick="confirmDelete()">Borrar</button>
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Elena</td>
+                <td>Europa</td> 
+                <td>
+                    <button class="btn warning">Editar</button>
+                    <button class="btn danger" onclick="confirmDelete()">Borrar</button>
+                </td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Andres</td>
+                <td>Asia</td> 
+                <td>
+                    <button class="btn warning">Editar</button>
+                    <button class="btn danger" onclick="confirmDelete()">Borrar</button>
+                </td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Paula</td>
+                <td>Oceania</td> 
+                <td>
+                    <button class="btn warning">Editar</button>
+                    <button class="btn danger" onclick="confirmDelete()">Borrar</button>
+                </td>
+            </tr>
+        </table>
+        <form>
+            <button class="btn agregar" formaction="login_insercion.html">Agregar</button>
+        </form>
+        
+
+    </div>
+    <br>
+    <script src="./js/listado.js"></script>
+</body>
+</html>
